@@ -23,7 +23,21 @@ var unseletected_color = "#646872";
 var seletected_color = "#2A2D34";
 
 var about__tags = document.getElementsByClassName("single-tab");
+for (var a = 0; a < about__tags.length; a++){
+  about__tags[a].onclick = function() {
 
+    for (var b = 0; b < about__tags.length; b++){
+      about__tags[b].style['background-color'] = unseletected_color;
+      about__tags[b].style['font-weight'] = "normal";
+    }
+
+    this.style['background-color'] = seletected_color;
+    this.style['font-weight'] = "bold";
+
+    var selecionado = this.innerHTML;
+    document.getElementById("box-text").innerHTML = aboutUs[selecionado];
+  }
+}
 
 
 
