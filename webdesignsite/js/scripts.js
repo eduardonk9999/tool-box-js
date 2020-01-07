@@ -22,6 +22,11 @@ var aboutUs = {
 var unseletected_color = "#646872";
 var seletected_color = "#2A2D34";
 
+var about__tags = document.getElementsByClassName("single-tab");
+
+
+
+
 // Slider de serviços
 
 var our_services = [
