@@ -101,3 +101,9 @@ var ano_atual = new Date;
 ano_atual = ano_atual.getFullYear();
 
 document.getElementById("current_year").innerHTML = ano_atual;
+
+
+
+//Map
+//Key API AIzaSyCfBv1ZrxLyApLN6ryo-BiCTQFkIQNQ-iQ
+
