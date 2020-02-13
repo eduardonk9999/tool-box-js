@@ -12,10 +12,6 @@ window.addEventListener('scroll', function(){
     Posicaopx++;
   } else{
     Posicaopx = 0;
-  }
-
-
-
-  
+  }  
 });
  
