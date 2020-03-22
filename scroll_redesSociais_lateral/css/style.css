@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section{
+  width: 100%;
+  height: 500px;
+  background: #000;
+  margin: 2px 0;
+}
+
+footer, header{
+  width: 100%;
+  height: 250px;
+  background-color: orange;
+}
+
+nav.list ul li {
+  background: #fff;
+  width: 30px;
+  height: 30px;
+  margin: 10px 40px;
+  border:1px solid #777;
+  transition: .3s;
+  list-style: none;
+}
+
+nav.list {
+  position: absolute;
+  transition: .3s all;
+}
+
+nav.list.ative {
+  position: fixed;
+  top: 0;
+  transition: .3s all;
+}
+
+nav.list.ative ul li{
+  border:5px solid orange;
+  transition: .3s;
+}
